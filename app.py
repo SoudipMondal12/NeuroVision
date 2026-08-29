@@ -11,8 +11,8 @@ import numpy as np
 # 1. PAGE CONFIGURATION & MEDICAL THEME SYSTEM
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="NeuroClarity | Dementia Stage Classification",
-    page_icon="🧠",
+    page_title="NeuroVision | Dementia Stage Classification",
+    page_icon="⚕️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -122,7 +122,7 @@ transform_pipeline = transforms.Compose([
 # -----------------------------------------------------------------------------
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/2868/2868244.png", width=80)
-    st.title("NeuroClarity Portal")
+    st.title("NeuroVision")
     st.markdown("---")
     st.markdown("### Clinical Protocol Checklist:")
     st.info("""
@@ -134,7 +134,7 @@ with st.sidebar:
     st.caption("Developed using Convolutional Neural Network Architectures running on PyTorch Core Engines.")
 
 # Main Screen Real Estate Split
-st.title("🧠 Dementia Stage Detection from Volumetric Brain MRI")
+st.title("⚕️ Dementia Stage Detection from Volumetric Brain MRI")
 st.markdown("##### Clinical Decision Support System — Powered by deep-layer Convolutional Neural Networks (CNN)")
 st.markdown("---")
 
