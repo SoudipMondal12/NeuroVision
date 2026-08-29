@@ -208,7 +208,7 @@ else:
             ax.spines['right'].set_visible(False)
             ax.spines['left'].set_color('#334155')
             
-            plt.tight_layout()
+            plt.tight_layout() 
             st.pyplot(fig)
             
         else:
